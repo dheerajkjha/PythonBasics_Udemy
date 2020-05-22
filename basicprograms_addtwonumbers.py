@@ -1,0 +1,5 @@
+num_one = input("Please enter the first number.")
+num_two = input("Please enter the second number.")
+sum_num = float(num_one) + float(num_two)
+# print("Sum of the two numbers entered is : " + str(round(sum_num, 2)))
+print("Sum of {0} and {1} is : {2}".format(num_one, num_two, sum_num))
